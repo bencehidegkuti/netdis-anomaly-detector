@@ -1,0 +1,9 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+data/
+models/
+.vscode/
+confusion_matrix*.png
+"@ | Out-File -Encoding utf8 .gitignore
